@@ -10,7 +10,7 @@ def home():
             password="mypass",
             database="myapp"
         )
-        return "Flask connected to MySQL!"
+        return "Flask connected to My"
     except:
         return "Flask running but database not ready"
 if __name__ == "__main__":
